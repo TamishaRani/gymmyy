@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gymmyy</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- ----- font-awesome cdn ---  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light px-4" style="background-color: rgb(246, 188, 117);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Gymmyy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#plan">plan</a>
+          <a class="nav-link" href="#fes">Features</a>
+          <a class="nav-link" href="#cat">Categories</a>
+          <a class="nav-link" href="#">Pricing</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/head-1.jpg" class="d-block w-100" alt="..." height="500px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/head-2.jpg" class="d-block w-100" alt="..." height="500px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/head-3.jpg" class="d-block w-100" alt="..." height="500px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <section id="plan">
+    <div class="container p-2 py-5">
+      <h1 class="text-center mb-5 text-uppercase text-success"><i
+          class="fa-solid fa-dumbbell text-primary fa-bounce"></i> gym <span
+          class="text-decoration-underline">diet</span> plan <i class="fa-solid fa-dumbbell fa-bounce text-primary"></i>
+      </h1>
+      <div class="row d-flex justify-content-center gap-3">
+        <div class="col-sm-4 col-md-4 col-lg-5 bg-primary text-white">
+          <h1>Breakdown</h1>
+          <hr />
+          <p>Proteins: Essential for muscle repair and growth.
+            Sources: Chicken, turkey, fish, eggs, dairy, tofu, legumes, and protein supplements.</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-5 bg-success text-white">
+          <h1>Meal Timing</h1>
+          <hr />
+          <p>Pre-Workout Meal: Consume a balanced meal 1-2 hours before exercising. This could include:
+            Lean protein (chicken, fish, tofu)</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-5 bg-danger text-white">
+          <h1>Daily Meal Plan</h1>
+          <hr />
+          <p>Breakfast:
+            Scrambled eggs with spinach and whole-grain toast
+            Greek yogurt with berries and honey
+            Oatmeal with nuts and a banana</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-5 bg-warning text-white">
+          <h1>Hydration</h1>
+          <hr />
+          <p>Drink plenty of water throughout the day, especially before, during, and after workouts.</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-5 bg-secondary text-white">
+          <h1>Supplements</h1>
+          <hr />
+          <p>Protein powder: To meet daily protein needs.
+            Creatine: To enhance strength and muscle mass.
+            Branched-chain amino acids (BCAAs): For muscle recovery.</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-5 bg-info text-white">
+          <h1>Your Goals</h1>
+          <hr />
+          <p>For fat loss: Slightly decrease calorie intake, focusing on lean proteins, fiber-rich vegetables, and
+            healthy fats</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="fes">
+    <div>
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom text-center">Gym Features</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('./images/fes1.jpg'); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">We are one of the largest gym .</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('./images/fes2.jpg'); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">We are one of the largest gym .</h2>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('./images/fes3.jpg'); background-size: cover; ">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">We are one of the largest gym.</h2>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="cat">
+    <div class="container px-4 py-2" id="featured-3">
+      <h2 class="pb-2 border-bottom text-info">WORKOUT CATEGORIES</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col ">
+
+          <h2>Workouts For Men</h2>
+          <p>We have a huge range of free downloadable workouts for men designed by fitness experts and trainers. Find
+            the best workout for your goal, experience, desired training style and equipment access.</p>
+
+        </div>
+        <div class="feature col border border-secondary rounded">
+
+          <h2>Workouts For Women</h2>
+          <p>We have a huge range of free downloadable workouts for men designed by fitness experts and trainers. Find
+            the best workout for your goal, experience, desired training style and equipment access.</p>
+
+        </div>
+        <div class="feature col">
+
+          <h2>Muscle Building</h2>
+          <p>We have a huge range of free downloadable workouts for men designed by fitness experts and trainers. Find
+            the best workout for your goal, experience, desired training style and equipment access.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container py-4">
+      <hr />
+      <h1 class="text-center text-info py-4">Contact us</h1>
+      <form id="formName">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Enter first name</label>
+          <input type="text" name="fname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Enter last name</label>
+          <input type="text" name="lname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Phone no.</label>
+          <input type="tel" name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </footer>
+  <button class="topbtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx4FinQYRdJrSIrha1gwhQbfgGyfyy-faoMr7BHPjvKaSekRTQONiZ-h2jd2GOtr6c/exec'
+  const form = document.forms['formName']
+  
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => alert("Thank you! your form is submitted successfully." ))
+    .then(() => {  window.location.reload(); })
+    .catch(error => console.error('Error!', error.message))
+  })
+  </script>
+
+
+<!-- 
+    https://github.com/rajkumarnimod/google-sheets_link_with_html/blob/main/google%20sheet.txt -->
+
+
+
+</body>
+
+</html>
